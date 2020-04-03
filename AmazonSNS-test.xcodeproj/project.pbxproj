@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0325E30D3376FB9F71ED1E84 /* Pods_AmazonSNS_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE0292249DE46CAB5FE06C9 /* Pods_AmazonSNS_testTests.framework */; };
+		279C9E5F7DC77BCAC3AC5CFD /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE14A0D17D322551881054 /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework */; };
+		72AEF80009735CE2B4ED7D9E /* Pods_AmazonSNS_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238899D24E8EF3FD240BAAC6 /* Pods_AmazonSNS_test.framework */; };
 		DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993324378F6B00346785 /* AppDelegate.swift */; };
 		DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993524378F6B00346785 /* SceneDelegate.swift */; };
 		DCAB993824378F6B00346785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* ViewController.swift */; };
@@ -15,6 +18,12 @@
 		DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */; };
 		DCAB994B24378F6E00346785 /* AmazonSNS_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB994A24378F6E00346785 /* AmazonSNS_testTests.swift */; };
 		DCAB995624378F6E00346785 /* AmazonSNS_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB995524378F6E00346785 /* AmazonSNS_testUITests.swift */; };
+		DCAB997524379D8000346785 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB996F24379D3800346785 /* AWSCognito.framework */; };
+		DCAB997624379D8000346785 /* AWSCognito.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB996F24379D3800346785 /* AWSCognito.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCAB997824379D8400346785 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997124379D4100346785 /* AWSCore.framework */; };
+		DCAB997924379D8400346785 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997124379D4100346785 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCAB997A24379D8600346785 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; };
+		DCAB997B24379D8600346785 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +43,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DCAB997724379D8000346785 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCAB997624379D8000346785 /* AWSCognito.framework in Embed Frameworks */,
+				DCAB997B24379D8600346785 /* AWSSNS.framework in Embed Frameworks */,
+				DCAB997924379D8400346785 /* AWSCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0EAE14A0D17D322551881054 /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonSNS_test_AmazonSNS_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238899D24E8EF3FD240BAAC6 /* Pods_AmazonSNS_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonSNS_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B2D361B83B92039081B50E /* Pods-AmazonSNS-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test.release.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test/Pods-AmazonSNS-test.release.xcconfig"; sourceTree = "<group>"; };
+		53181F63F0998E10B272CD5E /* Pods-AmazonSNS-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test.debug.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test/Pods-AmazonSNS-test.debug.xcconfig"; sourceTree = "<group>"; };
+		8711A7031EEC1B9317669A04 /* Pods-AmazonSNS-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-testTests.debug.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE0292249DE46CAB5FE06C9 /* Pods_AmazonSNS_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmazonSNS_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03EB5D117A093A1298F5F72 /* Pods-AmazonSNS-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-testTests.release.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F3ABE51B2993412AA0D5E3 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test-AmazonSNS-testUITests/Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C49EC34238EEC7594B0697 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test-AmazonSNS-testUITests/Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DCAB993024378F6B00346785 /* AmazonSNS-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmazonSNS-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB993324378F6B00346785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAB993524378F6B00346785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +83,10 @@
 		DCAB995124378F6E00346785 /* AmazonSNS-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmazonSNS-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB995524378F6E00346785 /* AmazonSNS_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonSNS_testUITests.swift; sourceTree = "<group>"; };
 		DCAB995724378F6E00346785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB996F24379D3800346785 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognito.framework; sourceTree = "<group>"; };
+		DCAB997124379D4100346785 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
+		DCAB997324379D5A00346785 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
+		DCAB997C24379DF700346785 /* AmazonSNS-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazonSNS-test-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AEF80009735CE2B4ED7D9E /* Pods_AmazonSNS_test.framework in Frameworks */,
+				DCAB997824379D8400346785 /* AWSCore.framework in Frameworks */,
+				DCAB997524379D8000346785 /* AWSCognito.framework in Frameworks */,
+				DCAB997A24379D8600346785 /* AWSSNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0325E30D3376FB9F71ED1E84 /* Pods_AmazonSNS_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +113,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279C9E5F7DC77BCAC3AC5CFD /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B29AA5C275F3D211C03231F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238899D24E8EF3FD240BAAC6 /* Pods_AmazonSNS_test.framework */,
+				0EAE14A0D17D322551881054 /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework */,
+				8BE0292249DE46CAB5FE06C9 /* Pods_AmazonSNS_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7513077F14084EE06C3F471D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53181F63F0998E10B272CD5E /* Pods-AmazonSNS-test.debug.xcconfig */,
+				44B2D361B83B92039081B50E /* Pods-AmazonSNS-test.release.xcconfig */,
+				B9F3ABE51B2993412AA0D5E3 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig */,
+				D2C49EC34238EEC7594B0697 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig */,
+				8711A7031EEC1B9317669A04 /* Pods-AmazonSNS-testTests.debug.xcconfig */,
+				A03EB5D117A093A1298F5F72 /* Pods-AmazonSNS-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DCAB992724378F6B00346785 = {
 			isa = PBXGroup;
 			children = (
+				DCAB997324379D5A00346785 /* AWSSNS.framework */,
+				DCAB997124379D4100346785 /* AWSCore.framework */,
+				DCAB996F24379D3800346785 /* AWSCognito.framework */,
 				DCAB993224378F6B00346785 /* AmazonSNS-test */,
 				DCAB994924378F6E00346785 /* AmazonSNS-testTests */,
 				DCAB995424378F6E00346785 /* AmazonSNS-testUITests */,
 				DCAB993124378F6B00346785 /* Products */,
+				7513077F14084EE06C3F471D /* Pods */,
+				2B29AA5C275F3D211C03231F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +178,7 @@
 				DCAB993C24378F6E00346785 /* Assets.xcassets */,
 				DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */,
 				DCAB994124378F6E00346785 /* Info.plist */,
+				DCAB997C24379DF700346785 /* AmazonSNS-test-Bridging-Header.h */,
 			);
 			path = "AmazonSNS-test";
 			sourceTree = "<group>";
@@ -135,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCAB995A24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-test" */;
 			buildPhases = (
+				5600A56021F558B58176B31E /* [CP] Check Pods Manifest.lock */,
 				DCAB992C24378F6B00346785 /* Sources */,
 				DCAB992D24378F6B00346785 /* Frameworks */,
 				DCAB992E24378F6B00346785 /* Resources */,
+				DCAB997724379D8000346785 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCAB995D24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testTests" */;
 			buildPhases = (
+				335D36A4D971B326E3A147E2 /* [CP] Check Pods Manifest.lock */,
 				DCAB994224378F6E00346785 /* Sources */,
 				DCAB994324378F6E00346785 /* Frameworks */,
 				DCAB994424378F6E00346785 /* Resources */,
+				45DFBD7C50199FE5AC2CFAFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCAB996024378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testUITests" */;
 			buildPhases = (
+				E20F5A87D3B38CAF0C0CDDC4 /* [CP] Check Pods Manifest.lock */,
 				DCAB994D24378F6E00346785 /* Sources */,
 				DCAB994E24378F6E00346785 /* Frameworks */,
 				DCAB994F24378F6E00346785 /* Resources */,
@@ -253,6 +331,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		335D36A4D971B326E3A147E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonSNS-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45DFBD7C50199FE5AC2CFAFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5600A56021F558B58176B31E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonSNS-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20F5A87D3B38CAF0C0CDDC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmazonSNS-test-AmazonSNS-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCAB992C24378F6B00346785 /* Sources */ = {
@@ -432,10 +596,15 @@
 		};
 		DCAB995B24378F6E00346785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53181F63F0998E10B272CD5E /* Pods-AmazonSNS-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,6 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/diegograciano/Documents/AmazonSNS-test/AmazonSNS-test/AmazonSNS-test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,10 +620,15 @@
 		};
 		DCAB995C24378F6E00346785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B2D361B83B92039081B50E /* Pods-AmazonSNS-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +636,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/diegograciano/Documents/AmazonSNS-test/AmazonSNS-test/AmazonSNS-test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +644,7 @@
 		};
 		DCAB995E24378F6E00346785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8711A7031EEC1B9317669A04 /* Pods-AmazonSNS-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +667,7 @@
 		};
 		DCAB995F24378F6E00346785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03EB5D117A093A1298F5F72 /* Pods-AmazonSNS-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +690,7 @@
 		};
 		DCAB996124378F6E00346785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F3ABE51B2993412AA0D5E3 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +711,7 @@
 		};
 		DCAB996224378F6E00346785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2C49EC34238EEC7594B0697 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

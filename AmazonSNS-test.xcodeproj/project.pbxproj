@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993324378F6B00346785 /* AppDelegate.swift */; };
+		DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993524378F6B00346785 /* SceneDelegate.swift */; };
+		DCAB993824378F6B00346785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* ViewController.swift */; };
+		DCAB993B24378F6B00346785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993924378F6B00346785 /* Main.storyboard */; };
+		DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993C24378F6E00346785 /* Assets.xcassets */; };
+		DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */; };
+		DCAB994B24378F6E00346785 /* AmazonSNS_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB994A24378F6E00346785 /* AmazonSNS_testTests.swift */; };
+		DCAB995624378F6E00346785 /* AmazonSNS_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB995524378F6E00346785 /* AmazonSNS_testUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAB994724378F6E00346785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB992824378F6B00346785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB992F24378F6B00346785;
+			remoteInfo = "AmazonSNS-test";
+		};
+		DCAB995224378F6E00346785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAB992824378F6B00346785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAB992F24378F6B00346785;
+			remoteInfo = "AmazonSNS-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAB993024378F6B00346785 /* AmazonSNS-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmazonSNS-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB993324378F6B00346785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAB993524378F6B00346785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCAB993724378F6B00346785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAB993A24378F6B00346785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAB993C24378F6E00346785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAB993F24378F6E00346785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCAB994124378F6E00346785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB994624378F6E00346785 /* AmazonSNS-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmazonSNS-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB994A24378F6E00346785 /* AmazonSNS_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonSNS_testTests.swift; sourceTree = "<group>"; };
+		DCAB994C24378F6E00346785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAB995124378F6E00346785 /* AmazonSNS-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmazonSNS-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAB995524378F6E00346785 /* AmazonSNS_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonSNS_testUITests.swift; sourceTree = "<group>"; };
+		DCAB995724378F6E00346785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAB992D24378F6B00346785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994324378F6E00346785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994E24378F6E00346785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAB992724378F6B00346785 = {
+			isa = PBXGroup;
+			children = (
+				DCAB993224378F6B00346785 /* AmazonSNS-test */,
+				DCAB994924378F6E00346785 /* AmazonSNS-testTests */,
+				DCAB995424378F6E00346785 /* AmazonSNS-testUITests */,
+				DCAB993124378F6B00346785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAB993124378F6B00346785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB993024378F6B00346785 /* AmazonSNS-test.app */,
+				DCAB994624378F6E00346785 /* AmazonSNS-testTests.xctest */,
+				DCAB995124378F6E00346785 /* AmazonSNS-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAB993224378F6B00346785 /* AmazonSNS-test */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB993324378F6B00346785 /* AppDelegate.swift */,
+				DCAB993524378F6B00346785 /* SceneDelegate.swift */,
+				DCAB993724378F6B00346785 /* ViewController.swift */,
+				DCAB993924378F6B00346785 /* Main.storyboard */,
+				DCAB993C24378F6E00346785 /* Assets.xcassets */,
+				DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */,
+				DCAB994124378F6E00346785 /* Info.plist */,
+			);
+			path = "AmazonSNS-test";
+			sourceTree = "<group>";
+		};
+		DCAB994924378F6E00346785 /* AmazonSNS-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB994A24378F6E00346785 /* AmazonSNS_testTests.swift */,
+				DCAB994C24378F6E00346785 /* Info.plist */,
+			);
+			path = "AmazonSNS-testTests";
+			sourceTree = "<group>";
+		};
+		DCAB995424378F6E00346785 /* AmazonSNS-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB995524378F6E00346785 /* AmazonSNS_testUITests.swift */,
+				DCAB995724378F6E00346785 /* Info.plist */,
+			);
+			path = "AmazonSNS-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAB992F24378F6B00346785 /* AmazonSNS-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB995A24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-test" */;
+			buildPhases = (
+				DCAB992C24378F6B00346785 /* Sources */,
+				DCAB992D24378F6B00346785 /* Frameworks */,
+				DCAB992E24378F6B00346785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AmazonSNS-test";
+			productName = "AmazonSNS-test";
+			productReference = DCAB993024378F6B00346785 /* AmazonSNS-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAB994524378F6E00346785 /* AmazonSNS-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB995D24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testTests" */;
+			buildPhases = (
+				DCAB994224378F6E00346785 /* Sources */,
+				DCAB994324378F6E00346785 /* Frameworks */,
+				DCAB994424378F6E00346785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB994824378F6E00346785 /* PBXTargetDependency */,
+			);
+			name = "AmazonSNS-testTests";
+			productName = "AmazonSNS-testTests";
+			productReference = DCAB994624378F6E00346785 /* AmazonSNS-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCAB995024378F6E00346785 /* AmazonSNS-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAB996024378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testUITests" */;
+			buildPhases = (
+				DCAB994D24378F6E00346785 /* Sources */,
+				DCAB994E24378F6E00346785 /* Frameworks */,
+				DCAB994F24378F6E00346785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAB995324378F6E00346785 /* PBXTargetDependency */,
+			);
+			name = "AmazonSNS-testUITests";
+			productName = "AmazonSNS-testUITests";
+			productReference = DCAB995124378F6E00346785 /* AmazonSNS-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAB992824378F6B00346785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Diego Graciano";
+				TargetAttributes = {
+					DCAB992F24378F6B00346785 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DCAB994524378F6E00346785 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DCAB992F24378F6B00346785;
+					};
+					DCAB995024378F6E00346785 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DCAB992F24378F6B00346785;
+					};
+				};
+			};
+			buildConfigurationList = DCAB992B24378F6B00346785 /* Build configuration list for PBXProject "AmazonSNS-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAB992724378F6B00346785;
+			productRefGroup = DCAB993124378F6B00346785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAB992F24378F6B00346785 /* AmazonSNS-test */,
+				DCAB994524378F6E00346785 /* AmazonSNS-testTests */,
+				DCAB995024378F6E00346785 /* AmazonSNS-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAB992E24378F6B00346785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */,
+				DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */,
+				DCAB993B24378F6B00346785 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994424378F6E00346785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994F24378F6E00346785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAB992C24378F6B00346785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB993824378F6B00346785 /* ViewController.swift in Sources */,
+				DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */,
+				DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994224378F6E00346785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB994B24378F6E00346785 /* AmazonSNS_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAB994D24378F6E00346785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB995624378F6E00346785 /* AmazonSNS_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAB994824378F6E00346785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB992F24378F6B00346785 /* AmazonSNS-test */;
+			targetProxy = DCAB994724378F6E00346785 /* PBXContainerItemProxy */;
+		};
+		DCAB995324378F6E00346785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAB992F24378F6B00346785 /* AmazonSNS-test */;
+			targetProxy = DCAB995224378F6E00346785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAB993924378F6B00346785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAB993A24378F6B00346785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAB993F24378F6E00346785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAB995824378F6E00346785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAB995924378F6E00346785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAB995B24378F6E00346785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAB995C24378F6E00346785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCAB995E24378F6E00346785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonSNS-test.app/AmazonSNS-test";
+			};
+			name = Debug;
+		};
+		DCAB995F24378F6E00346785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazonSNS-test.app/AmazonSNS-test";
+			};
+			name = Release;
+		};
+		DCAB996124378F6E00346785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AmazonSNS-test";
+			};
+			name = Debug;
+		};
+		DCAB996224378F6E00346785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
+				INFOPLIST_FILE = "AmazonSNS-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AmazonSNS-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAB992B24378F6B00346785 /* Build configuration list for PBXProject "AmazonSNS-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB995824378F6E00346785 /* Debug */,
+				DCAB995924378F6E00346785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB995A24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB995B24378F6E00346785 /* Debug */,
+				DCAB995C24378F6E00346785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB995D24378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB995E24378F6E00346785 /* Debug */,
+				DCAB995F24378F6E00346785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAB996024378F6E00346785 /* Build configuration list for PBXNativeTarget "AmazonSNS-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAB996124378F6E00346785 /* Debug */,
+				DCAB996224378F6E00346785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAB992824378F6B00346785 /* Project object */;
+}

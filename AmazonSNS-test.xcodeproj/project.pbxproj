@@ -10,9 +10,32 @@
 		0325E30D3376FB9F71ED1E84 /* Pods_AmazonSNS_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE0292249DE46CAB5FE06C9 /* Pods_AmazonSNS_testTests.framework */; };
 		279C9E5F7DC77BCAC3AC5CFD /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAE14A0D17D322551881054 /* Pods_AmazonSNS_test_AmazonSNS_testUITests.framework */; };
 		72AEF80009735CE2B4ED7D9E /* Pods_AmazonSNS_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238899D24E8EF3FD240BAAC6 /* Pods_AmazonSNS_test.framework */; };
+		DC23C9D92442D217000F8F42 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC23C9D82442D217000F8F42 /* WorkViewController.swift */; };
+		DC23C9DB2442D222000F8F42 /* AlliesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC23C9DA2442D222000F8F42 /* AlliesViewController.swift */; };
+		DC23C9DF2442D239000F8F42 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC23C9DE2442D239000F8F42 /* ServicesViewController.swift */; };
+		DC23C9E32442D24E000F8F42 /* AdvantagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC23C9E22442D24E000F8F42 /* AdvantagesViewController.swift */; };
+		DC2442FA2442D9BB00738C9E /* Widget1.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2442F92442D9BB00738C9E /* Widget1.xib */; };
+		DC2442FE2442D9D900738C9E /* Widget1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2442FD2442D9D900738C9E /* Widget1.swift */; };
+		DC2443002442D9E100738C9E /* Widget2.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2442FF2442D9E100738C9E /* Widget2.xib */; };
+		DC2443022442D9EB00738C9E /* Widget2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443012442D9EB00738C9E /* Widget2.swift */; };
+		DC2443042442D9F300738C9E /* Widget3.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2443032442D9F300738C9E /* Widget3.xib */; };
+		DC2443062442D9FD00738C9E /* Widget3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443052442D9FD00738C9E /* Widget3.swift */; };
+		DC2443082442DA0500738C9E /* Widget4.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2443072442DA0500738C9E /* Widget4.xib */; };
+		DC24430A2442DA1300738C9E /* Widget4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443092442DA1300738C9E /* Widget4.swift */; };
+		DC24430C2442DA1F00738C9E /* Widget5.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC24430B2442DA1F00738C9E /* Widget5.xib */; };
+		DC24430E2442DA2900738C9E /* Widget5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24430D2442DA2900738C9E /* Widget5.swift */; };
+		DC2443102442DA3400738C9E /* Widget6.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC24430F2442DA3400738C9E /* Widget6.xib */; };
+		DC2443122442DA4200738C9E /* Widget6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443112442DA4200738C9E /* Widget6.swift */; };
+		DC2443152442F7CD00738C9E /* Appliance.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2443142442F7CD00738C9E /* Appliance.xib */; };
+		DC2443172442F7F600738C9E /* Appliance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443162442F7F600738C9E /* Appliance.swift */; };
+		DC24431A2442F91B00738C9E /* AppliancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443192442F91B00738C9E /* AppliancesViewController.swift */; };
+		DC24431D2442FBD300738C9E /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24431C2442FBD300738C9E /* JobDetailsViewController.swift */; };
+		DC24431F2442FF9D00738C9E /* JobDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24431E2442FF9D00738C9E /* JobDetailTableViewCell.swift */; };
+		DC244322244303F200738C9E /* Service.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC244321244303F200738C9E /* Service.xib */; };
+		DC2443242443040300738C9E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443232443040300738C9E /* Service.swift */; };
 		DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993324378F6B00346785 /* AppDelegate.swift */; };
 		DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993524378F6B00346785 /* SceneDelegate.swift */; };
-		DCAB993824378F6B00346785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* ViewController.swift */; };
+		DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* LoginViewController.swift */; };
 		DCAB993B24378F6B00346785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993924378F6B00346785 /* Main.storyboard */; };
 		DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993C24378F6E00346785 /* Assets.xcassets */; };
 		DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */; };
@@ -24,6 +47,8 @@
 		DCAB997924379D8400346785 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997124379D4100346785 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCAB997A24379D8600346785 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; };
 		DCAB997B24379D8600346785 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCDF9F8C243ED9F40028EB7F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF9F8B243ED9F40028EB7F /* Home.storyboard */; };
+		DCDF9F8E243EDA130028EB7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF9F8D243EDA130028EB7F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +94,33 @@
 		A03EB5D117A093A1298F5F72 /* Pods-AmazonSNS-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-testTests.release.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-testTests/Pods-AmazonSNS-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9F3ABE51B2993412AA0D5E3 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test-AmazonSNS-testUITests/Pods-AmazonSNS-test-AmazonSNS-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C49EC34238EEC7594B0697 /* Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig"; path = "Target Support Files/Pods-AmazonSNS-test-AmazonSNS-testUITests/Pods-AmazonSNS-test-AmazonSNS-testUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DCAB993024378F6B00346785 /* AmazonSNS-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmazonSNS-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC23C9D82442D217000F8F42 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		DC23C9DA2442D222000F8F42 /* AlliesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlliesViewController.swift; sourceTree = "<group>"; };
+		DC23C9DE2442D239000F8F42 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		DC23C9E22442D24E000F8F42 /* AdvantagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvantagesViewController.swift; sourceTree = "<group>"; };
+		DC2442F92442D9BB00738C9E /* Widget1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget1.xib; sourceTree = "<group>"; };
+		DC2442FD2442D9D900738C9E /* Widget1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget1.swift; sourceTree = "<group>"; };
+		DC2442FF2442D9E100738C9E /* Widget2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget2.xib; sourceTree = "<group>"; };
+		DC2443012442D9EB00738C9E /* Widget2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget2.swift; sourceTree = "<group>"; };
+		DC2443032442D9F300738C9E /* Widget3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget3.xib; sourceTree = "<group>"; };
+		DC2443052442D9FD00738C9E /* Widget3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget3.swift; sourceTree = "<group>"; };
+		DC2443072442DA0500738C9E /* Widget4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget4.xib; sourceTree = "<group>"; };
+		DC2443092442DA1300738C9E /* Widget4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget4.swift; sourceTree = "<group>"; };
+		DC24430B2442DA1F00738C9E /* Widget5.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget5.xib; sourceTree = "<group>"; };
+		DC24430D2442DA2900738C9E /* Widget5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget5.swift; sourceTree = "<group>"; };
+		DC24430F2442DA3400738C9E /* Widget6.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Widget6.xib; sourceTree = "<group>"; };
+		DC2443112442DA4200738C9E /* Widget6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget6.swift; sourceTree = "<group>"; };
+		DC2443142442F7CD00738C9E /* Appliance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Appliance.xib; sourceTree = "<group>"; };
+		DC2443162442F7F600738C9E /* Appliance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appliance.swift; sourceTree = "<group>"; };
+		DC2443192442F91B00738C9E /* AppliancesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppliancesViewController.swift; sourceTree = "<group>"; };
+		DC24431C2442FBD300738C9E /* JobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
+		DC24431E2442FF9D00738C9E /* JobDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailTableViewCell.swift; sourceTree = "<group>"; };
+		DC244321244303F200738C9E /* Service.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Service.xib; sourceTree = "<group>"; };
+		DC2443232443040300738C9E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DCAB993024378F6B00346785 /* MxM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MxM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB993324378F6B00346785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAB993524378F6B00346785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DCAB993724378F6B00346785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAB993724378F6B00346785 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DCAB993A24378F6B00346785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAB993C24378F6E00346785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAB993F24378F6E00346785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,6 +135,9 @@
 		DCAB997124379D4100346785 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
 		DCAB997324379D5A00346785 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
 		DCAB997C24379DF700346785 /* AmazonSNS-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazonSNS-test-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCDF9F8B243ED9F40028EB7F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		DCDF9F8D243EDA130028EB7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCFFA3EB243B802F0087FC08 /* AmazonSNS-test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AmazonSNS-test.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +194,142 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DC23C9D22442C580000F8F42 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				DC23C9D82442D217000F8F42 /* WorkViewController.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		DC23C9D32442C589000F8F42 /* Allies */ = {
+			isa = PBXGroup;
+			children = (
+				DC23C9DA2442D222000F8F42 /* AlliesViewController.swift */,
+			);
+			path = Allies;
+			sourceTree = "<group>";
+		};
+		DC23C9D42442C58E000F8F42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC23C9DE2442D239000F8F42 /* ServicesViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DC23C9D52442C5B5000F8F42 /* Advantages */ = {
+			isa = PBXGroup;
+			children = (
+				DC23C9E22442D24E000F8F42 /* AdvantagesViewController.swift */,
+			);
+			path = Advantages;
+			sourceTree = "<group>";
+		};
+		DC2442F22442D98800738C9E /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				DC244320244303AC00738C9E /* Service */,
+				DC2443132442F7BA00738C9E /* Appliance */,
+				DC2442F82442D9AB00738C9E /* Widget6 */,
+				DC2442F72442D9A300738C9E /* Widget5 */,
+				DC2442F62442D99D00738C9E /* Widget4 */,
+				DC2442F52442D99800738C9E /* Widget3 */,
+				DC2442F42442D99200738C9E /* Widget2 */,
+				DC2442F32442D98D00738C9E /* Widget1 */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		DC2442F32442D98D00738C9E /* Widget1 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2442F92442D9BB00738C9E /* Widget1.xib */,
+				DC2442FD2442D9D900738C9E /* Widget1.swift */,
+			);
+			path = Widget1;
+			sourceTree = "<group>";
+		};
+		DC2442F42442D99200738C9E /* Widget2 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2442FF2442D9E100738C9E /* Widget2.xib */,
+				DC2443012442D9EB00738C9E /* Widget2.swift */,
+			);
+			path = Widget2;
+			sourceTree = "<group>";
+		};
+		DC2442F52442D99800738C9E /* Widget3 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443032442D9F300738C9E /* Widget3.xib */,
+				DC2443052442D9FD00738C9E /* Widget3.swift */,
+			);
+			path = Widget3;
+			sourceTree = "<group>";
+		};
+		DC2442F62442D99D00738C9E /* Widget4 */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443072442DA0500738C9E /* Widget4.xib */,
+				DC2443092442DA1300738C9E /* Widget4.swift */,
+			);
+			path = Widget4;
+			sourceTree = "<group>";
+		};
+		DC2442F72442D9A300738C9E /* Widget5 */ = {
+			isa = PBXGroup;
+			children = (
+				DC24430B2442DA1F00738C9E /* Widget5.xib */,
+				DC24430D2442DA2900738C9E /* Widget5.swift */,
+			);
+			path = Widget5;
+			sourceTree = "<group>";
+		};
+		DC2442F82442D9AB00738C9E /* Widget6 */ = {
+			isa = PBXGroup;
+			children = (
+				DC24430F2442DA3400738C9E /* Widget6.xib */,
+				DC2443112442DA4200738C9E /* Widget6.swift */,
+			);
+			path = Widget6;
+			sourceTree = "<group>";
+		};
+		DC2443132442F7BA00738C9E /* Appliance */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443142442F7CD00738C9E /* Appliance.xib */,
+				DC2443162442F7F600738C9E /* Appliance.swift */,
+			);
+			path = Appliance;
+			sourceTree = "<group>";
+		};
+		DC2443182442F8FB00738C9E /* Appliances */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443192442F91B00738C9E /* AppliancesViewController.swift */,
+			);
+			path = Appliances;
+			sourceTree = "<group>";
+		};
+		DC24431B2442FBB700738C9E /* JobDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DC24431C2442FBD300738C9E /* JobDetailsViewController.swift */,
+				DC24431E2442FF9D00738C9E /* JobDetailTableViewCell.swift */,
+			);
+			path = JobDetails;
+			sourceTree = "<group>";
+		};
+		DC244320244303AC00738C9E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC244321244303F200738C9E /* Service.xib */,
+				DC2443232443040300738C9E /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		DCAB992724378F6B00346785 = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +348,7 @@
 		DCAB993124378F6B00346785 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCAB993024378F6B00346785 /* AmazonSNS-test.app */,
+				DCAB993024378F6B00346785 /* MxM.app */,
 				DCAB994624378F6E00346785 /* AmazonSNS-testTests.xctest */,
 				DCAB995124378F6E00346785 /* AmazonSNS-testUITests.xctest */,
 			);
@@ -171,10 +358,11 @@
 		DCAB993224378F6B00346785 /* AmazonSNS-test */ = {
 			isa = PBXGroup;
 			children = (
+				DC2442F22442D98800738C9E /* XIB */,
+				DCDF9F88243ECD700028EB7F /* UILayer */,
+				DCFFA3EB243B802F0087FC08 /* AmazonSNS-test.entitlements */,
 				DCAB993324378F6B00346785 /* AppDelegate.swift */,
 				DCAB993524378F6B00346785 /* SceneDelegate.swift */,
-				DCAB993724378F6B00346785 /* ViewController.swift */,
-				DCAB993924378F6B00346785 /* Main.storyboard */,
 				DCAB993C24378F6E00346785 /* Assets.xcassets */,
 				DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */,
 				DCAB994124378F6E00346785 /* Info.plist */,
@@ -201,6 +389,39 @@
 			path = "AmazonSNS-testUITests";
 			sourceTree = "<group>";
 		};
+		DCDF9F88243ECD700028EB7F /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				DC24431B2442FBB700738C9E /* JobDetails */,
+				DC2443182442F8FB00738C9E /* Appliances */,
+				DC23C9D52442C5B5000F8F42 /* Advantages */,
+				DC23C9D42442C58E000F8F42 /* Services */,
+				DC23C9D32442C589000F8F42 /* Allies */,
+				DC23C9D22442C580000F8F42 /* Work */,
+				DCDF9F8A243ECD9D0028EB7F /* Home */,
+				DCDF9F89243ECD810028EB7F /* Login */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		DCDF9F89243ECD810028EB7F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DCAB993724378F6B00346785 /* LoginViewController.swift */,
+				DCAB993924378F6B00346785 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DCDF9F8A243ECD9D0028EB7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF9F8B243ED9F40028EB7F /* Home.storyboard */,
+				DCDF9F8D243EDA130028EB7F /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,7 +441,7 @@
 			);
 			name = "AmazonSNS-test";
 			productName = "AmazonSNS-test";
-			productReference = DCAB993024378F6B00346785 /* AmazonSNS-test.app */;
+			productReference = DCAB993024378F6B00346785 /* MxM.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DCAB994524378F6E00346785 /* AmazonSNS-testTests */ = {
@@ -311,8 +532,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */,
+				DC244322244303F200738C9E /* Service.xib in Resources */,
 				DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */,
+				DC2443002442D9E100738C9E /* Widget2.xib in Resources */,
+				DC2443042442D9F300738C9E /* Widget3.xib in Resources */,
+				DC2443102442DA3400738C9E /* Widget6.xib in Resources */,
+				DC2443082442DA0500738C9E /* Widget4.xib in Resources */,
 				DCAB993B24378F6B00346785 /* Main.storyboard in Resources */,
+				DCDF9F8C243ED9F40028EB7F /* Home.storyboard in Resources */,
+				DC2443152442F7CD00738C9E /* Appliance.xib in Resources */,
+				DC2442FA2442D9BB00738C9E /* Widget1.xib in Resources */,
+				DC24430C2442DA1F00738C9E /* Widget5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +653,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCAB993824378F6B00346785 /* ViewController.swift in Sources */,
+				DC24431D2442FBD300738C9E /* JobDetailsViewController.swift in Sources */,
+				DC23C9D92442D217000F8F42 /* WorkViewController.swift in Sources */,
+				DC23C9DF2442D239000F8F42 /* ServicesViewController.swift in Sources */,
+				DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */,
+				DC2443062442D9FD00738C9E /* Widget3.swift in Sources */,
+				DC24430A2442DA1300738C9E /* Widget4.swift in Sources */,
+				DC24431F2442FF9D00738C9E /* JobDetailTableViewCell.swift in Sources */,
+				DC2443172442F7F600738C9E /* Appliance.swift in Sources */,
 				DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */,
+				DC2443122442DA4200738C9E /* Widget6.swift in Sources */,
+				DC2443242443040300738C9E /* Service.swift in Sources */,
+				DC24431A2442F91B00738C9E /* AppliancesViewController.swift in Sources */,
+				DC24430E2442DA2900738C9E /* Widget5.swift in Sources */,
+				DC2442FE2442D9D900738C9E /* Widget1.swift in Sources */,
 				DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */,
+				DC23C9DB2442D222000F8F42 /* AlliesViewController.swift in Sources */,
+				DC23C9E32442D24E000F8F42 /* AdvantagesViewController.swift in Sources */,
+				DC2443022442D9EB00738C9E /* Widget2.swift in Sources */,
+				DCDF9F8E243EDA130028EB7F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +845,7 @@
 			baseConfigurationReference = 53181F63F0998E10B272CD5E /* Pods-AmazonSNS-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AmazonSNS-test/AmazonSNS-test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -611,7 +858,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MxM;
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/diegograciano/Documents/AmazonSNS-test/AmazonSNS-test/AmazonSNS-test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,6 +870,7 @@
 			baseConfigurationReference = 44B2D361B83B92039081B50E /* Pods-AmazonSNS-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AmazonSNS-test/AmazonSNS-test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SRB7V8EQ8;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -635,7 +883,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rbeimx.AmazonSNS-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MxM;
 				SWIFT_OBJC_BRIDGING_HEADER = "/Users/diegograciano/Documents/AmazonSNS-test/AmazonSNS-test/AmazonSNS-test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

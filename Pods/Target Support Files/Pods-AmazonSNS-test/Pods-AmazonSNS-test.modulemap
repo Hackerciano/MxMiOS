@@ -1,0 +1,6 @@
+framework module Pods_AmazonSNS_test {
+  umbrella header "Pods-AmazonSNS-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

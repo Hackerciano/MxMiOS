@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g44-Ca-gqa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alianzas-->
+        <scene sceneID="bwt-It-ACm">
+            <objects>
+                <navigationController storyboardIdentifier="alliesVC" automaticallyAdjustsScrollViewInsets="NO" id="g44-Ca-gqa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Alianzas" image="baseline_insert_chart_black_36pt" id="E3Z-Rp-QmK"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="RIT-kd-YJx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qRx-vY-xbP" kind="relationship" relationship="rootViewController" id="5dT-Wh-Jis"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8s-bs-jvd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2366.666666666667" y="561.83035714285711"/>
+        </scene>
+        <!--Alianzas-->
+        <scene sceneID="5tK-ow-Bdc">
+            <objects>
+                <viewController id="qRx-vY-xbP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ebp-Qo-ado">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uuy-ri-omU"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alianzas" id="50C-4p-8TG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFa-2h-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3081" y="562"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="baseline_insert_chart_black_36pt" width="36" height="36"/>
+    </resources>
+</document>

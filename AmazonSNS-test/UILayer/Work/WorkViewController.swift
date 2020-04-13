@@ -63,7 +63,7 @@ class WorkViewController: UIViewController, UITableViewDataSource, UITableViewDe
     // ***************************
 
     @IBAction func showAppliances(_ sender: UIButton) {
-        let appliancesVC = storyboard?.instantiateViewController(withIdentifier: "AppliancesViewController") as! AppliancesViewController
+        let appliancesVC = UIStoryboard(name: "ModalsSB", bundle: nil).instantiateViewController(withIdentifier: "AppliancesViewController") as! AppliancesViewController
         self.present(appliancesVC, animated: true, completion: nil)
     }
     

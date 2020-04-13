@@ -35,6 +35,11 @@
 		DC2443242443040300738C9E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443232443040300738C9E /* Service.swift */; };
 		DC2443272443CF3300738C9E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443262443CF3300738C9E /* GradientView.swift */; };
 		DC24432A2443D2E700738C9E /* ServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443292443D2E700738C9E /* ServiceDetailViewController.swift */; };
+		DC90951D2444B0790054CE48 /* WorkSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC90951C2444B0790054CE48 /* WorkSB.storyboard */; };
+		DC90951F2444B3070054CE48 /* ServicesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC90951E2444B3070054CE48 /* ServicesSB.storyboard */; };
+		DC9095212444BABC0054CE48 /* AdvantagesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9095202444BABC0054CE48 /* AdvantagesSB.storyboard */; };
+		DC9095252444BB4E0054CE48 /* AlliesSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9095242444BB4E0054CE48 /* AlliesSB.storyboard */; };
+		DC9095282444BD700054CE48 /* ModalsSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9095272444BD700054CE48 /* ModalsSB.storyboard */; };
 		DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993324378F6B00346785 /* AppDelegate.swift */; };
 		DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993524378F6B00346785 /* SceneDelegate.swift */; };
 		DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* LoginViewController.swift */; };
@@ -121,6 +126,11 @@
 		DC2443232443040300738C9E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		DC2443262443CF3300738C9E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DC2443292443D2E700738C9E /* ServiceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailViewController.swift; sourceTree = "<group>"; };
+		DC90951C2444B0790054CE48 /* WorkSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WorkSB.storyboard; sourceTree = "<group>"; };
+		DC90951E2444B3070054CE48 /* ServicesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ServicesSB.storyboard; sourceTree = "<group>"; };
+		DC9095202444BABC0054CE48 /* AdvantagesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdvantagesSB.storyboard; sourceTree = "<group>"; };
+		DC9095242444BB4E0054CE48 /* AlliesSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlliesSB.storyboard; sourceTree = "<group>"; };
+		DC9095272444BD700054CE48 /* ModalsSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModalsSB.storyboard; sourceTree = "<group>"; };
 		DCAB993024378F6B00346785 /* MxM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MxM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB993324378F6B00346785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAB993524378F6B00346785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -202,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				DC23C9D82442D217000F8F42 /* WorkViewController.swift */,
+				DC90951C2444B0790054CE48 /* WorkSB.storyboard */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				DC23C9DA2442D222000F8F42 /* AlliesViewController.swift */,
+				DC9095242444BB4E0054CE48 /* AlliesSB.storyboard */,
 			);
 			path = Allies;
 			sourceTree = "<group>";
@@ -218,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				DC23C9DE2442D239000F8F42 /* ServicesViewController.swift */,
+				DC90951E2444B3070054CE48 /* ServicesSB.storyboard */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -226,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				DC23C9E22442D24E000F8F42 /* AdvantagesViewController.swift */,
+				DC9095202444BABC0054CE48 /* AdvantagesSB.storyboard */,
 			);
 			path = Advantages;
 			sourceTree = "<group>";
@@ -350,6 +364,14 @@
 			path = "Service Details";
 			sourceTree = "<group>";
 		};
+		DC9095262444BD610054CE48 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				DC9095272444BD700054CE48 /* ModalsSB.storyboard */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
 		DCAB992724378F6B00346785 = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +435,7 @@
 		DCDF9F88243ECD700028EB7F /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				DC9095262444BD610054CE48 /* Modals */,
 				DC2443282443D2CD00738C9E /* Service Details */,
 				DC24431B2442FBB700738C9E /* JobDetails */,
 				DC2443182442F8FB00738C9E /* Appliances */,
@@ -555,12 +578,17 @@
 			files = (
 				DCAB994024378F6E00346785 /* LaunchScreen.storyboard in Resources */,
 				DC244322244303F200738C9E /* Service.xib in Resources */,
+				DC9095212444BABC0054CE48 /* AdvantagesSB.storyboard in Resources */,
 				DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */,
 				DC2443002442D9E100738C9E /* Widget2.xib in Resources */,
+				DC90951D2444B0790054CE48 /* WorkSB.storyboard in Resources */,
+				DC9095282444BD700054CE48 /* ModalsSB.storyboard in Resources */,
 				DC2443042442D9F300738C9E /* Widget3.xib in Resources */,
 				DC2443102442DA3400738C9E /* Widget6.xib in Resources */,
 				DC2443082442DA0500738C9E /* Widget4.xib in Resources */,
+				DC9095252444BB4E0054CE48 /* AlliesSB.storyboard in Resources */,
 				DCAB993B24378F6B00346785 /* Main.storyboard in Resources */,
+				DC90951F2444B3070054CE48 /* ServicesSB.storyboard in Resources */,
 				DCDF9F8C243ED9F40028EB7F /* Home.storyboard in Resources */,
 				DC2443152442F7CD00738C9E /* Appliance.xib in Resources */,
 				DC2442FA2442D9BB00738C9E /* Widget1.xib in Resources */,

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8wS-aa-xAL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Prestaciones-->
+        <scene sceneID="Gyh-jB-vKP">
+            <objects>
+                <navigationController storyboardIdentifier="advantagesVC" automaticallyAdjustsScrollViewInsets="NO" id="8wS-aa-xAL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Prestaciones" image="baseline_assignment_turned_in_black_36pt" id="kLy-gj-nlZ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ajm-IU-eXR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FjH-SY-Kyz" kind="relationship" relationship="rootViewController" id="UG2-iN-tcK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZj-IQ-SeP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3364" y="594"/>
+        </scene>
+        <!--Prestaciones-->
+        <scene sceneID="THT-z1-P4E">
+            <objects>
+                <viewController id="FjH-SY-Kyz" customClass="AdvantagesViewController" customModule="MxM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jkx-kj-OdE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dso-sS-93y">
+                                <rect key="frame" x="20" y="165" width="374" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGJ-lQ-8rg">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                        <state key="normal" title="Solicitar estimulo fiscal personalizado"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="lGJ-lQ-8rg" firstAttribute="leading" secondItem="Dso-sS-93y" secondAttribute="leading" id="5f0-OA-OK4"/>
+                                    <constraint firstItem="lGJ-lQ-8rg" firstAttribute="top" secondItem="Dso-sS-93y" secondAttribute="top" id="9OC-b8-dYr"/>
+                                    <constraint firstAttribute="trailing" secondItem="lGJ-lQ-8rg" secondAttribute="trailing" id="p78-Q8-YRL"/>
+                                    <constraint firstAttribute="bottom" secondItem="lGJ-lQ-8rg" secondAttribute="bottom" id="vcg-cl-tfx"/>
+                                    <constraint firstAttribute="height" constant="60" id="yvu-1F-dRo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qf-RP-TWx">
+                                <rect key="frame" x="20" y="245" width="374" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lW4-as-gNq">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                        <state key="normal" title="Crédito gubernamental"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="lW4-as-gNq" firstAttribute="top" secondItem="8qf-RP-TWx" secondAttribute="top" id="Hw0-Hu-yrk"/>
+                                    <constraint firstAttribute="trailing" secondItem="lW4-as-gNq" secondAttribute="trailing" id="KmG-ht-v5h"/>
+                                    <constraint firstAttribute="height" constant="60" id="O2E-zP-Bld"/>
+                                    <constraint firstItem="lW4-as-gNq" firstAttribute="leading" secondItem="8qf-RP-TWx" secondAttribute="leading" id="cC0-31-V5L"/>
+                                    <constraint firstAttribute="bottom" secondItem="lW4-as-gNq" secondAttribute="bottom" id="pqQ-QK-TcS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="asC-rc-oCw">
+                                <rect key="frame" x="20" y="325" width="374" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vI7-SO-hF9">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                        <state key="normal" title="Inversiones inteligentes (interés compuesto)"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="vI7-SO-hF9" firstAttribute="leading" secondItem="asC-rc-oCw" secondAttribute="leading" id="4yT-Nd-joX"/>
+                                    <constraint firstAttribute="bottom" secondItem="vI7-SO-hF9" secondAttribute="bottom" id="Y1U-5E-FZa"/>
+                                    <constraint firstAttribute="height" constant="60" id="flY-wn-XqY"/>
+                                    <constraint firstAttribute="trailing" secondItem="vI7-SO-hF9" secondAttribute="trailing" id="inc-85-dg4"/>
+                                    <constraint firstItem="vI7-SO-hF9" firstAttribute="top" secondItem="asC-rc-oCw" secondAttribute="top" id="z0r-wV-l9M"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="asC-rc-oCw" firstAttribute="leading" secondItem="ksh-hY-sdE" secondAttribute="leading" constant="20" id="2nR-g2-fBb"/>
+                            <constraint firstItem="8qf-RP-TWx" firstAttribute="leading" secondItem="ksh-hY-sdE" secondAttribute="leading" constant="20" id="7Np-sM-cpw"/>
+                            <constraint firstItem="asC-rc-oCw" firstAttribute="top" secondItem="8qf-RP-TWx" secondAttribute="bottom" constant="20" id="Ab4-6X-gmd"/>
+                            <constraint firstItem="Dso-sS-93y" firstAttribute="top" secondItem="ksh-hY-sdE" secondAttribute="top" constant="25" id="HKO-4j-hSx"/>
+                            <constraint firstItem="ksh-hY-sdE" firstAttribute="trailing" secondItem="asC-rc-oCw" secondAttribute="trailing" constant="20" id="IgS-mG-COC"/>
+                            <constraint firstItem="Dso-sS-93y" firstAttribute="leading" secondItem="ksh-hY-sdE" secondAttribute="leading" constant="20" id="Mp9-0d-V4P"/>
+                            <constraint firstItem="ksh-hY-sdE" firstAttribute="trailing" secondItem="Dso-sS-93y" secondAttribute="trailing" constant="20" id="OsM-wM-jHR"/>
+                            <constraint firstItem="8qf-RP-TWx" firstAttribute="top" secondItem="Dso-sS-93y" secondAttribute="bottom" constant="20" id="moY-iZ-8bx"/>
+                            <constraint firstItem="ksh-hY-sdE" firstAttribute="trailing" secondItem="8qf-RP-TWx" secondAttribute="trailing" constant="20" id="xRl-P8-w8K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ksh-hY-sdE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Prestaciones" id="p47-lI-Rkg"/>
+                    <connections>
+                        <outlet property="buttonView1" destination="Dso-sS-93y" id="jCg-je-glz"/>
+                        <outlet property="buttonView2" destination="8qf-RP-TWx" id="zOc-Vh-Wrv"/>
+                        <outlet property="buttonView3" destination="asC-rc-oCw" id="S2t-cF-NbF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqN-UZ-bFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4080" y="594"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="baseline_assignment_turned_in_black_36pt" width="36" height="36"/>
+    </resources>
+</document>

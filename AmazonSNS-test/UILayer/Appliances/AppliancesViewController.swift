@@ -15,7 +15,7 @@ class AppliancesViewController: UIViewController {
         super.viewDidLoad()
 
         self.contentView.layer.borderWidth = 1
-        self.contentView.layer.borderColor = UIColor.green.cgColor
+        self.contentView.layer.borderColor = UIColor.systemGreen.cgColor
     }
     
 

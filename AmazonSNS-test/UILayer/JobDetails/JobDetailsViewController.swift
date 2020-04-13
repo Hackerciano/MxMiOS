@@ -48,9 +48,12 @@ class JobDetailsViewController: UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let alertView = UIAlertController(title: "Aplicación rápida", message: "¿Desea aplicar a este trabajo?", preferredStyle: .alert)
-        alertView.addAction(UIAlertAction(title: "Sí", style: .default, handler: nil))
-        alertView.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        let alertView = UIAlertController(title: "Aplicación rápida", message: "¿Desea aplicar a este trabajo?, si desea hacerlo por favor escriba su número celular de contacto", preferredStyle: .alert)
+        alertView.addTextField { (UITextField) in
+            UITextField.keyboardType = .phonePad
+        }
+        alertView.addAction(UIAlertAction(title: "Aplicar", style: .default, handler: nil))
+        alertView.addAction(UIAlertAction(title: "Cancelar", style: .cancel, handler: nil))
         self.present(alertView, animated: true, completion: nil)
     }
 

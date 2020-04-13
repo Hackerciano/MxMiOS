@@ -13,6 +13,7 @@ class Service: UIView {
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var categoria: UILabel!
     @IBOutlet weak var serviceImg: UIImageView!
+    @IBOutlet weak var button: UIButton!
     
     override init(frame: CGRect) { //For using CustomView in Code
         super.init(frame: frame)

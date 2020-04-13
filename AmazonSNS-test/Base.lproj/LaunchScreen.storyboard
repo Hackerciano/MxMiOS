@@ -45,6 +45,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="YLW-nQ-agz" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="8FD-wa-3Dy"/>
+                            <constraint firstItem="aW5-b1-Ric" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="edj-MY-GwR"/>
                             <constraint firstItem="YLW-nQ-agz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="q68-e7-9aS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

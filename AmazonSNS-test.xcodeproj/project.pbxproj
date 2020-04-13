@@ -33,6 +33,8 @@
 		DC24431F2442FF9D00738C9E /* JobDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC24431E2442FF9D00738C9E /* JobDetailTableViewCell.swift */; };
 		DC244322244303F200738C9E /* Service.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC244321244303F200738C9E /* Service.xib */; };
 		DC2443242443040300738C9E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443232443040300738C9E /* Service.swift */; };
+		DC2443272443CF3300738C9E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443262443CF3300738C9E /* GradientView.swift */; };
+		DC24432A2443D2E700738C9E /* ServiceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2443292443D2E700738C9E /* ServiceDetailViewController.swift */; };
 		DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993324378F6B00346785 /* AppDelegate.swift */; };
 		DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993524378F6B00346785 /* SceneDelegate.swift */; };
 		DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAB993724378F6B00346785 /* LoginViewController.swift */; };
@@ -117,6 +119,8 @@
 		DC24431E2442FF9D00738C9E /* JobDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailTableViewCell.swift; sourceTree = "<group>"; };
 		DC244321244303F200738C9E /* Service.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Service.xib; sourceTree = "<group>"; };
 		DC2443232443040300738C9E /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DC2443262443CF3300738C9E /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DC2443292443D2E700738C9E /* ServiceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailViewController.swift; sourceTree = "<group>"; };
 		DCAB993024378F6B00346785 /* MxM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MxM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAB993324378F6B00346785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAB993524378F6B00346785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -330,6 +334,22 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		DC2443252443CF1800738C9E /* Tweaks */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443262443CF3300738C9E /* GradientView.swift */,
+			);
+			path = Tweaks;
+			sourceTree = "<group>";
+		};
+		DC2443282443D2CD00738C9E /* Service Details */ = {
+			isa = PBXGroup;
+			children = (
+				DC2443292443D2E700738C9E /* ServiceDetailViewController.swift */,
+			);
+			path = "Service Details";
+			sourceTree = "<group>";
+		};
 		DCAB992724378F6B00346785 = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +378,7 @@
 		DCAB993224378F6B00346785 /* AmazonSNS-test */ = {
 			isa = PBXGroup;
 			children = (
+				DC2443252443CF1800738C9E /* Tweaks */,
 				DC2442F22442D98800738C9E /* XIB */,
 				DCDF9F88243ECD700028EB7F /* UILayer */,
 				DCFFA3EB243B802F0087FC08 /* AmazonSNS-test.entitlements */,
@@ -392,6 +413,7 @@
 		DCDF9F88243ECD700028EB7F /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				DC2443282443D2CD00738C9E /* Service Details */,
 				DC24431B2442FBB700738C9E /* JobDetails */,
 				DC2443182442F8FB00738C9E /* Appliances */,
 				DC23C9D52442C5B5000F8F42 /* Advantages */,
@@ -655,6 +677,7 @@
 			files = (
 				DC24431D2442FBD300738C9E /* JobDetailsViewController.swift in Sources */,
 				DC23C9D92442D217000F8F42 /* WorkViewController.swift in Sources */,
+				DC2443272443CF3300738C9E /* GradientView.swift in Sources */,
 				DC23C9DF2442D239000F8F42 /* ServicesViewController.swift in Sources */,
 				DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */,
 				DC2443062442D9FD00738C9E /* Widget3.swift in Sources */,
@@ -672,6 +695,7 @@
 				DC23C9E32442D24E000F8F42 /* AdvantagesViewController.swift in Sources */,
 				DC2443022442D9EB00738C9E /* Widget2.swift in Sources */,
 				DCDF9F8E243EDA130028EB7F /* HomeViewController.swift in Sources */,
+				DC24432A2443D2E700738C9E /* ServiceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

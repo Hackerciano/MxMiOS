@@ -25,17 +25,17 @@ class WorkViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
 
     func shadow(view: UIView) {
-        self.view.layer.cornerRadius = 2
-        self.view.layer.shadowRadius = 2
+        view.layer.cornerRadius = 6
+        view.layer.shadowRadius = 2
         if #available(iOS 13.0, *) {
-            self.view.layer.shadowColor = UIColor.systemGray2.cgColor
-            self.view.layer.shadowOpacity = 1.0
+            view.layer.shadowColor = UIColor.systemGray2.cgColor
+            view.layer.shadowOpacity = 1.0
         } else {
-            self.view.layer.shadowColor = UIColor.black.cgColor
-            self.view.layer.shadowOpacity = 0.4
+            view.layer.shadowColor = UIColor.black.cgColor
+            view.layer.shadowOpacity = 0.4
         }
 
-        self.view.layer.shadowOffset = .zero
+        view.layer.shadowOffset = .zero
     }
     
     // ***************************

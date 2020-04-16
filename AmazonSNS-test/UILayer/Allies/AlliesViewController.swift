@@ -11,7 +11,7 @@ import UIKit
 class AlliesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, QRCodeScanned {
 
     var selectedBusiness: String = ""
-    let bussinessName : String = "Tortas el Mares"
+    let bussinessName : String = "Floreria Fleuriste"
     let bussinessNumber: String = "Registro: NDS8W4TN23R"
     
     var avaliableBussiness = ["Florería Fleuristé", "Lonches Valle esperanza", "Botanas Guckoi", "Cafetería London", "Estética Yukon", "Abarrotes Chuy", "Pizzas Don Cheto", "Tintorería Rosita"]

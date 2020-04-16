@@ -18,25 +18,23 @@ class ServiceDetailViewController: UIViewController, UITableViewDataSource, UITa
     var serviceTitle : String = ""
     var selectedContractor : String = ""
     var selectedUserImg : UIImage?
+    var userLocation : CLLocationCoordinate2D?
     
     var profilePics = [#imageLiteral(resourceName: "profile1.png"),#imageLiteral(resourceName: "profile2.jpg"),#imageLiteral(resourceName: "profile5.jpg"),#imageLiteral(resourceName: "profile3.png"),#imageLiteral(resourceName: "profile6.jpg"),#imageLiteral(resourceName: "profile4.png"),#imageLiteral(resourceName: "profile7.jpg")]
     var workers: [String] = ["José Martinez", "Erick Diaz", "Silvia Corona", "Juan García", "Daniela Sanchez", "Mario Torres", "Ana de la torre"]
     var basePrice: [String] = ["$300", "$350", "$200", "$400", "$230", "$320", "$410"]
-    var latitudes: [CLLocationDegrees] = [20.759612, 20.764836, 20.770137, 20.781731, 20.777965, 20.787861, 20.796649]
-    var longitudes: [CLLocationDegrees] = [-103.440607, -103.423688, -103.447598, -103.445222, -103.416866, -103.430530, -103.429029]
+    //var latitudes: [CLLocationDegrees] = [20.759612, 20.764836, 20.770137, 20.781731, 20.777965, 20.787861, 20.796649]
+    var latitudes: [CLLocationDegrees] = [0.759612, 0.764836, 0.770137, 0.781731, 0.777965, 0.787861, 0.796649]
+    //var longitudes: [CLLocationDegrees] = [-103.440607, -103.423688, -103.447598, -103.445222, -103.416866, -103.430530, -103.429029]
+    var longitudes: [CLLocationDegrees] = [0.440607, 0.423688, 0.447598, 0.445222, 0.416866, 0.430530, 0.429029]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = serviceTitle
         checkLocationServices()
-        
-        let i = self.workers.count - 1
-        for n in 0...i {
-            contractors.append(Contractors(name: workers[n], cost: basePrice[n], latitude: latitudes[n], longitude: longitudes[n]))
-        }
-        fetchContractorsOnMap(contractors)
-        
-        
+        //addMapPoints()
+        //fetchContractorsOnMap(contractors)
+
         
         let locationManager = CLLocationManager()
         locationManager.delegate = self
@@ -59,6 +57,23 @@ class ServiceDetailViewController: UIViewController, UITableViewDataSource, UITa
     // ***************************
     // MARK: Config Map View
     // ***************************
+    
+    func addMapPoints(location: CLLocationCoordinate2D) {
+        var passedLatitude = location.latitude
+        var passedLongitude = location.longitude
+        passedLatitude = passedLatitude.truncate(places: 0)
+        passedLongitude = passedLongitude.truncate(places: 0) + 1
+        print(passedLongitude)
+        print(passedLatitude)
+        
+        let i = self.workers.count - 1
+        for n in 0...i {
+            let newLatitude = passedLatitude + latitudes[n]
+            let newLongitude = passedLongitude - longitudes[n]
+            contractors.append(Contractors(name: workers[n], cost: basePrice[n], latitude: newLatitude, longitude: newLongitude))
+        }
+        fetchContractorsOnMap(contractors)
+    }
     
     func fetchContractorsOnMap(_ contractors: [Contractors]) {
         for contractor in contractors {
@@ -134,11 +149,22 @@ extension ServiceDetailViewController: CLLocationManagerDelegate {
       
       let location = locations.last! as CLLocation
       let currentLocation = location.coordinate
+        userLocation = currentLocation
       let coordinateRegion = MKCoordinateRegion(center: currentLocation, latitudinalMeters: 4500, longitudinalMeters: 4500)
       map.setRegion(coordinateRegion, animated: true)
       locationManager.stopUpdatingLocation()
+    addMapPoints(location: currentLocation)
    }
    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
       print(error.localizedDescription)
    }
+    
+}
+
+extension Double
+{
+    func truncate(places : Int)-> Double
+    {
+        return Double(floor(pow(10.0, Double(places)) * self)/pow(10.0, Double(places)))
+    }
 }

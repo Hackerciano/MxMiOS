@@ -85,6 +85,19 @@
                                     <constraint firstItem="vI7-SO-hF9" firstAttribute="top" secondItem="asC-rc-oCw" secondAttribute="top" id="z0r-wV-l9M"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" id="xxW-GL-NLg" customClass="GradientView" customModule="MxM" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="2000" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="8Sw-b7-1K2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>

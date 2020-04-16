@@ -11,6 +11,7 @@ import UIKit
 class Widget2: UIView {
 
     @IBOutlet var contentView: UIView!
+    @IBOutlet weak var qrView: UIImageView!
     override init(frame: CGRect) { //For using CustomView in Code
         super.init(frame: frame)
         commonInit()
@@ -27,6 +28,8 @@ class Widget2: UIView {
         addSubview(contentView)
         contentView.frame = self.bounds
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        let qrImage = generateQRCode(from: "https://mxm-web.com.mx")
+        qrView.image = qrImage
         shadow()
     }
     
@@ -43,5 +46,24 @@ class Widget2: UIView {
         
         self.contentView.layer.shadowOffset = .zero
     }
+    
+    func generateQRCode(from string: String) -> UIImage? {
+        let data = string.data(using: String.Encoding.ascii)
 
+        if let filter = CIFilter(name: "CIQRCodeGenerator") {
+            filter.setValue(data, forKey: "inputMessage")
+            let transform = CGAffineTransform(scaleX: 5, y: 5)
+
+            if let output = filter.outputImage?.transformed(by: transform) {
+                return UIImage(ciImage: output)
+            }
+        }
+
+        return nil
+    }
+
+    @IBAction func goToWeb(_ sender: UIButton) {
+        guard let url = URL(string: "https://mxm-web.com.mx") else { return }
+        UIApplication.shared.open(url)
+    }
 }

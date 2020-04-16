@@ -107,6 +107,19 @@
                                     <constraint firstItem="TzG-Tt-MQc" firstAttribute="leading" secondItem="PjD-Tf-uVS" secondAttribute="leading" constant="213.5" id="uot-pw-keK"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" id="1dU-ef-eUz" customClass="GradientView" customModule="MxM" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="2000" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="Fqh-aX-0bP"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -120,7 +133,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Vha-Gk-CcG"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Trabajo" id="b05-Ce-QGy"/>
+                    <navigationItem key="navigationItem" title="Trabajo" largeTitleDisplayMode="always" id="b05-Ce-QGy"/>
                     <connections>
                         <outlet property="appliancesView" destination="7oG-se-TIK" id="DM2-y5-hKt"/>
                         <outlet property="cvView" destination="TzG-Tt-MQc" id="err-Xg-msx"/>

@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MxM-->
+        <!--Home View Controller-->
         <scene sceneID="0x4-Af-1kh">
             <objects>
                 <viewController id="eop-4m-aA8" customClass="HomeViewController" customModule="MxM" customModuleProvider="target" sceneMemberID="viewController">
@@ -16,10 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" id="HtZ-hp-3Iz" customClass="GradientView" customModule="MxM" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="2000" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="safeArea" id="KxK-NN-AFj"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nWS-b4-hQO">
                                 <rect key="frame" x="0.0" y="140" width="414" height="977"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-58-xS8" customClass="Widget1" customModule="MxM" customModuleProvider="target">
+                                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGg-58-xS8" customClass="Widget1" customModule="MxM" customModuleProvider="target">
                                         <rect key="frame" x="15" y="180" width="384" height="200"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -146,9 +159,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RY2-dI-T9Z"/>
                     </view>
-                    <navigationItem key="navigationItem" title="MxM" id="P6F-kn-jgQ">
+                    <navigationItem key="navigationItem" id="P6F-kn-jgQ">
                         <barButtonItem key="rightBarButtonItem" image="baseline_settings_black_36pt" id="Xcq-mY-56j">
-                            <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -160,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1KI-wv-hMy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5014" y="-222"/>
+            <point key="canvasLocation" x="5013.04347826087" y="-222.32142857142856"/>
         </scene>
         <!--MxM-->
         <scene sceneID="7Dp-54-mBe">
@@ -174,7 +187,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="QgD-BO-Lru" kind="relationship" relationship="viewControllers" id="46a-Bk-KA2"/>

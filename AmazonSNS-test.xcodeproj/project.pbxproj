@@ -54,6 +54,15 @@
 		DCAB997924379D8400346785 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997124379D4100346785 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCAB997A24379D8600346785 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; };
 		DCAB997B24379D8600346785 /* AWSSNS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCAB997324379D5A00346785 /* AWSSNS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCD9C9AD244556470008BE8F /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9AC244556470008BE8F /* QRViewController.swift */; };
+		DCD9C9B02445721F0008BE8F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9AF2445721F0008BE8F /* ScannerViewController.swift */; };
+		DCD9C9B2244572340008BE8F /* ScannerSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD9C9B1244572340008BE8F /* ScannerSB.storyboard */; };
+		DCD9C9B5244574630008BE8F /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9B4244574630008BE8F /* SubscriptionViewController.swift */; };
+		DCD9C9B92446A1650008BE8F /* serverSNSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9B82446A1650008BE8F /* serverSNSInfo.swift */; };
+		DCD9C9BC2446C2A60008BE8F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCD9C9BE2446C2A60008BE8F /* Localizable.strings */; };
+		DCD9C9C12446D6BA0008BE8F /* AlliesBussinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9C02446D6BA0008BE8F /* AlliesBussinessViewController.swift */; };
+		DCD9C9C424477C680008BE8F /* Contractors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9C324477C680008BE8F /* Contractors.swift */; };
+		DCD9C9CA244793D20008BE8F /* RequestServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9C9C9244793D20008BE8F /* RequestServiceViewController.swift */; };
 		DCDF9F8C243ED9F40028EB7F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF9F8B243ED9F40028EB7F /* Home.storyboard */; };
 		DCDF9F8E243EDA130028EB7F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF9F8D243EDA130028EB7F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -149,6 +158,15 @@
 		DCAB997124379D4100346785 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCore.framework; sourceTree = "<group>"; };
 		DCAB997324379D5A00346785 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSSNS.framework; sourceTree = "<group>"; };
 		DCAB997C24379DF700346785 /* AmazonSNS-test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmazonSNS-test-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCD9C9AC244556470008BE8F /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		DCD9C9AF2445721F0008BE8F /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		DCD9C9B1244572340008BE8F /* ScannerSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScannerSB.storyboard; sourceTree = "<group>"; };
+		DCD9C9B4244574630008BE8F /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		DCD9C9B82446A1650008BE8F /* serverSNSInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serverSNSInfo.swift; sourceTree = "<group>"; };
+		DCD9C9BD2446C2A60008BE8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCD9C9C02446D6BA0008BE8F /* AlliesBussinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlliesBussinessViewController.swift; sourceTree = "<group>"; };
+		DCD9C9C324477C680008BE8F /* Contractors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contractors.swift; sourceTree = "<group>"; };
+		DCD9C9C9244793D20008BE8F /* RequestServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServiceViewController.swift; sourceTree = "<group>"; };
 		DCDF9F8B243ED9F40028EB7F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		DCDF9F8D243EDA130028EB7F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DCFFA3EB243B802F0087FC08 /* AmazonSNS-test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AmazonSNS-test.entitlements"; sourceTree = "<group>"; };
@@ -367,7 +385,12 @@
 		DC9095262444BD610054CE48 /* Modals */ = {
 			isa = PBXGroup;
 			children = (
+				DCD9C9C8244793B30008BE8F /* Request Service */,
+				DCD9C9BF2446D69D0008BE8F /* Bussiness Allie */,
+				DCD9C9B3244574520008BE8F /* Subscription */,
+				DCD9C9AB244556300008BE8F /* QR */,
 				DC9095272444BD700054CE48 /* ModalsSB.storyboard */,
+				DC2443182442F8FB00738C9E /* Appliances */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -400,6 +423,7 @@
 		DCAB993224378F6B00346785 /* AmazonSNS-test */ = {
 			isa = PBXGroup;
 			children = (
+				DCD9C9B62446A14A0008BE8F /* UIModel */,
 				DC2443252443CF1800738C9E /* Tweaks */,
 				DC2442F22442D98800738C9E /* XIB */,
 				DCDF9F88243ECD700028EB7F /* UILayer */,
@@ -410,6 +434,7 @@
 				DCAB993E24378F6E00346785 /* LaunchScreen.storyboard */,
 				DCAB994124378F6E00346785 /* Info.plist */,
 				DCAB997C24379DF700346785 /* AmazonSNS-test-Bridging-Header.h */,
+				DCD9C9BE2446C2A60008BE8F /* Localizable.strings */,
 			);
 			path = "AmazonSNS-test";
 			sourceTree = "<group>";
@@ -432,13 +457,79 @@
 			path = "AmazonSNS-testUITests";
 			sourceTree = "<group>";
 		};
+		DCD9C9AB244556300008BE8F /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9AC244556470008BE8F /* QRViewController.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		DCD9C9AE2445720C0008BE8F /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9AF2445721F0008BE8F /* ScannerViewController.swift */,
+				DCD9C9B1244572340008BE8F /* ScannerSB.storyboard */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		DCD9C9B3244574520008BE8F /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9B4244574630008BE8F /* SubscriptionViewController.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		DCD9C9B62446A14A0008BE8F /* UIModel */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9C224477C580008BE8F /* Contractors */,
+				DCD9C9B72446A1520008BE8F /* ARN */,
+			);
+			path = UIModel;
+			sourceTree = "<group>";
+		};
+		DCD9C9B72446A1520008BE8F /* ARN */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9B82446A1650008BE8F /* serverSNSInfo.swift */,
+			);
+			path = ARN;
+			sourceTree = "<group>";
+		};
+		DCD9C9BF2446D69D0008BE8F /* Bussiness Allie */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9C02446D6BA0008BE8F /* AlliesBussinessViewController.swift */,
+			);
+			path = "Bussiness Allie";
+			sourceTree = "<group>";
+		};
+		DCD9C9C224477C580008BE8F /* Contractors */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9C324477C680008BE8F /* Contractors.swift */,
+			);
+			path = Contractors;
+			sourceTree = "<group>";
+		};
+		DCD9C9C8244793B30008BE8F /* Request Service */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9C9C9244793D20008BE8F /* RequestServiceViewController.swift */,
+			);
+			path = "Request Service";
+			sourceTree = "<group>";
+		};
 		DCDF9F88243ECD700028EB7F /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				DCD9C9AE2445720C0008BE8F /* Scanner */,
 				DC9095262444BD610054CE48 /* Modals */,
 				DC2443282443D2CD00738C9E /* Service Details */,
 				DC24431B2442FBB700738C9E /* JobDetails */,
-				DC2443182442F8FB00738C9E /* Appliances */,
 				DC23C9D52442C5B5000F8F42 /* Advantages */,
 				DC23C9D42442C58E000F8F42 /* Services */,
 				DC23C9D32442C589000F8F42 /* Allies */,
@@ -582,6 +673,7 @@
 				DCAB993D24378F6E00346785 /* Assets.xcassets in Resources */,
 				DC2443002442D9E100738C9E /* Widget2.xib in Resources */,
 				DC90951D2444B0790054CE48 /* WorkSB.storyboard in Resources */,
+				DCD9C9B2244572340008BE8F /* ScannerSB.storyboard in Resources */,
 				DC9095282444BD700054CE48 /* ModalsSB.storyboard in Resources */,
 				DC2443042442D9F300738C9E /* Widget3.xib in Resources */,
 				DC2443102442DA3400738C9E /* Widget6.xib in Resources */,
@@ -591,6 +683,7 @@
 				DC90951F2444B3070054CE48 /* ServicesSB.storyboard in Resources */,
 				DCDF9F8C243ED9F40028EB7F /* Home.storyboard in Resources */,
 				DC2443152442F7CD00738C9E /* Appliance.xib in Resources */,
+				DCD9C9BC2446C2A60008BE8F /* Localizable.strings in Resources */,
 				DC2442FA2442D9BB00738C9E /* Widget1.xib in Resources */,
 				DC24430C2442DA1F00738C9E /* Widget5.xib in Resources */,
 			);
@@ -705,19 +798,26 @@
 			files = (
 				DC24431D2442FBD300738C9E /* JobDetailsViewController.swift in Sources */,
 				DC23C9D92442D217000F8F42 /* WorkViewController.swift in Sources */,
+				DCD9C9CA244793D20008BE8F /* RequestServiceViewController.swift in Sources */,
 				DC2443272443CF3300738C9E /* GradientView.swift in Sources */,
 				DC23C9DF2442D239000F8F42 /* ServicesViewController.swift in Sources */,
 				DCAB993824378F6B00346785 /* LoginViewController.swift in Sources */,
+				DCD9C9AD244556470008BE8F /* QRViewController.swift in Sources */,
+				DCD9C9C424477C680008BE8F /* Contractors.swift in Sources */,
+				DCD9C9C12446D6BA0008BE8F /* AlliesBussinessViewController.swift in Sources */,
+				DCD9C9B5244574630008BE8F /* SubscriptionViewController.swift in Sources */,
 				DC2443062442D9FD00738C9E /* Widget3.swift in Sources */,
 				DC24430A2442DA1300738C9E /* Widget4.swift in Sources */,
 				DC24431F2442FF9D00738C9E /* JobDetailTableViewCell.swift in Sources */,
 				DC2443172442F7F600738C9E /* Appliance.swift in Sources */,
 				DCAB993424378F6B00346785 /* AppDelegate.swift in Sources */,
+				DCD9C9B92446A1650008BE8F /* serverSNSInfo.swift in Sources */,
 				DC2443122442DA4200738C9E /* Widget6.swift in Sources */,
 				DC2443242443040300738C9E /* Service.swift in Sources */,
 				DC24431A2442F91B00738C9E /* AppliancesViewController.swift in Sources */,
 				DC24430E2442DA2900738C9E /* Widget5.swift in Sources */,
 				DC2442FE2442D9D900738C9E /* Widget1.swift in Sources */,
+				DCD9C9B02445721F0008BE8F /* ScannerViewController.swift in Sources */,
 				DCAB993624378F6B00346785 /* SceneDelegate.swift in Sources */,
 				DC23C9DB2442D222000F8F42 /* AlliesViewController.swift in Sources */,
 				DC23C9E32442D24E000F8F42 /* AdvantagesViewController.swift in Sources */,
@@ -773,6 +873,14 @@
 				DCAB993F24378F6E00346785 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD9C9BE2446C2A60008BE8F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD9C9BD2446C2A60008BE8F /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -905,6 +1013,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -930,6 +1039,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "AmazonSNS-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

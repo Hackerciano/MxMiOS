@@ -15,6 +15,11 @@ Teléfonos de contacto:
 * 3321179565
 * 3321836646
 
+![Image description](https://i.imgur.com/ten96rN.jpg)
+![Image description](https://i.imgur.com/zLMt0vf.jpg)
+![Image description](https://i.imgur.com/bJoc7pr.jpg)
+
+
 * **Análisis del estatus quo**
   - MxM es un proyecto de Mexicanos para mexicanos, según el banco mundial, después de la contingencia sanitaria causada por el nuevo coronavirus SARS-Cov-2 o mejor conocido como Covid-19 será bastante abrupta ya que aproximadamente el PIB de México descenderá más de 4%, por dicha razón se presenta la siguiente propuesta de resolución al tema: **"Reactivación de la economía"**
   - Sectores mayormente afectados:
